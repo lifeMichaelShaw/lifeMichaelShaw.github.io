@@ -1,0 +1,105 @@
+/**全局的样式设置*/
+body,p,ul,li,h1,h2,h3,h4,h5,h6{ margin:0px;padding:0px; }
+ul li{list-style: none}
+a{text-decoration: none;color: #fff}
+body{text-align: center;font-family: Heiti SC}
+/*总容器*/
+#container{
+    margin: 10px auto;
+    border:1px solid #CCCCCC;
+    width:800px;
+    height: 600px;
+    position: relative;
+}
+/**左侧面板容器*/
+#leftPanel{
+    position: absolute;
+    left:0px;
+    top:0px;
+
+    width:25%;
+    height: 100%;
+
+    text-align: center;
+    background: #006666;
+
+    color:#fff;
+
+}
+/**左侧面板 包裹容器*/
+#leftPanel .wrap{
+    width:80%;
+    margin:0 auto;
+    margin-top: 30px;
+
+    text-align: left;
+}
+/**左侧面板 下头像图片样式*/
+#leftPanel .wrap .avatar{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin:0 auto;
+}
+/**左侧面板 包裹容器下h4标记*/
+#leftPanel .wrap h4{
+    width: 120px;
+    margin:0 auto;
+    margin-top: 10px
+}
+/**线条样式*/
+#leftPanel .line{
+    width:120px;
+    margin:0 auto;
+    height: 10px;
+    border-bottom: 1px solid #fff
+}
+/* 左侧面板 下 基本信息 技能 联系方式  */
+#leftPanel .base,#leftPanel .lag ,#leftPanel .contact{
+    width:120px;
+    font-size: 14px;
+    font-weight: 200;
+    margin:0 auto;
+    margin-top: 10px;
+    line-height: 25px
+}
+
+/**右侧面板*/
+#rightPanel{
+    position: absolute;
+    left:25%;
+    top:0px;
+
+    text-align: left;
+    background: #fff;
+    /*border: 1px solid red;	*/
+    width:75%;
+    height: 100%;
+}
+/**右侧面板 包裹容器*/
+#rightPanel .wrap{
+    margin-left:30px;
+    margin-top: 10px;
+    /*border: 1px solid red;*/
+}
+/**右侧面板 标题项目*/
+#rightPanel .item{
+    line-height: 40px;
+    height: 40px;
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+/**右侧面板 子标题项*/
+#rightPanel h4{
+    margin-top: 10px;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+/*荣誉证书ul*/
+#rightPanel .cert{
+    margin-top: 10px;
+    line-height: 25px
+}
