@@ -1,1 +1,0 @@
-# lifeMichaelShaw.github.io
